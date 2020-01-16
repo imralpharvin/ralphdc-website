@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Simple Web Application</title>
+    <style>
+      #header {
+        color: black;
+        padding: 20px 40px;
+        text-align: center;
+      }
+
+      #description {
+        color: black;
+        padding: 0px 20px;
+      }
+      .block {
+        background-color: black;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      #buttons {
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>Ralph Arvin De Castro</h1>
-    <p style="color:red">Hi, my name is Ralph and welcome to my website!</p>
-    <a href="https://www.linkedin.com/in/ralpharvindc/"
-      >Go to my LinkedIn Profile</a
-    >
-    <br />
-    <button>This is a button.</button>
+    <!-- Header -->
+    <h1 id = "header">Ralph Arvin De Castro</h1 s>
+
+    <!-- Description -->
+    <p id = "description">Hi, my name is Ralph and welcome to my website!</p>
+    
+    <!-- About me -->
+    <div class="block">
+      <h2>About me</h2>
+      <p>An enthusiastic and passionate computer science student trying to find an internship that will help gain work experience, learn new skills, and grow as a software developer in the computer science field.</p>
+    </div>
+
+    <!-- Buttons -->
+    <div id = "buttons">
+      <button onclick="window.location.href = 'https://www.linkedin.com/in/ralpharvindc/';" id = "buttons">LinkedIn</button>
+    </div>
   </body>
 </html>
