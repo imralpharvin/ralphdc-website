@@ -1,5 +1,5 @@
 function linkedIn() {
-  var button = document.getElementById("linkedInButton");
+  var button = document.getElementById("linkedIn");
 
   button.innerHTML = "Initial Test";
 }

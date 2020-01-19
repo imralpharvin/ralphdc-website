@@ -9,6 +9,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1em;
+  text-align: center;
+}
+
 #subheader {
   color: white;
   font-size: 1em;
@@ -19,15 +24,29 @@ h1 {
 
 #description {
   color: white;
-  padding: 0px 20px;
+  padding: 0px 25px;
+  font-size: small;
 }
+
+#portrait {
+  width: 250px;
+}
+
 .block {
   background-color: black;
   color: white;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px 600px 10px 600px;
+  padding: 10px;
 }
 
 #buttons {
   text-align: center;
+}
+
+#linkedin {
+  width: 75px;
+}
+
+#github {
+  width: 75px;
 }
