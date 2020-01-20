@@ -23,20 +23,13 @@ h2 {
 }
 
 #description {
-  color: white;
+  color: black;
   padding: 0px 25px;
   font-size: small;
 }
 
 #portrait {
   width: 250px;
-}
-
-.block {
-  background-color: black;
-  color: white;
-  margin: 10px 600px 10px 600px;
-  padding: 10px;
 }
 
 #buttons {
@@ -49,4 +42,9 @@ h2 {
 
 #github {
   width: 75px;
+}
+
+#content {
+  padding: 10px;
+  background-color: white;
 }
