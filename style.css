@@ -44,7 +44,12 @@ h2 {
   width: 75px;
 }
 
-#content {
+#content,
+#content2 {
   padding: 10px;
-  background-color: white;
+  background-color: #303030;
+}
+
+#navbar {
+  background-color: #181818;
 }

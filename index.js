@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $("#portrait").click(function() {
+  /*$("#portrait").click(function() {
     $(this).hide();
-  });
+  });*/
 });
 
 function linkedIn() {
