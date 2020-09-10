@@ -10,8 +10,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
-  text-align: center;
+  color: white;
+  font-size: 2em;
 }
 
 #subheader {
@@ -23,7 +23,7 @@ h2 {
 }
 
 #description {
-  color: black;
+  color: white;
   padding: 0px 25px;
   font-size: small;
 }
@@ -47,7 +47,7 @@ h2 {
 #content,
 #content2 {
   padding: 10px;
-  background-color: #303030;
+  background-color: #202020;
 }
 
 #navbar {
